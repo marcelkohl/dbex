@@ -1,0 +1,81 @@
+@import "ui-variables";
+@import "../iconsets/font-awesome/font-awesome";
+
+@symbol-database: '\f1c0';
+@symbol-table:    '\f0ce';
+@symbol-pk:       '\f084';
+@symbol-fk:       '\f084';
+@symbol-field:    '\f0c9';
+
+@symbol-database-color: #61AEEF;
+@symbol-table-color: #DF6A73;
+@symbol-pk-color: #E5C17C;
+@symbol-fk-color: #a431c4;
+@symbol-field-color: #808080;
+
+.symbol-icon(@name) {
+  font-family: 'symbol-icons';
+  content: @@name;
+}
+
+.symbol-icon-colored(@name) {
+  .symbol-icon(@name);
+  @color: "@{name}-color";
+  color: @@color;
+}
+
+.symbol-icon-fontawesome(@name) {
+  font-family: 'FontAwesome';
+  content: @@name;
+}
+
+.symbol-icon-fontawesome-colored(@name) {
+  .symbol-icon-fontawesome(@name);
+  @color: "@{name}-color";
+  color: @@color;
+}
+
+.dbex {
+  padding-left: .35em;
+  padding-right: .7em;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: auto;
+
+  .symbols-navigator-tree-view {
+    padding-top: .5em;
+  }
+
+  span.icon {
+    -webkit-user-select: none;
+
+    &::before {
+      width: 1.4em;
+    }
+  }
+
+  .icon-field::before {
+    .symbol-icon-fontawesome-colored(symbol-field);
+  }
+
+  .icon-fk::before {
+    .symbol-icon-fontawesome-colored(symbol-fk);
+  }
+
+  .icon-pk::before {
+    .symbol-icon-fontawesome-colored(symbol-pk);
+  }
+
+  .icon-database::before {
+    .symbol-icon-fontawesome-colored(symbol-database);
+  }
+
+  .icon-table::before {
+    .symbol-icon-fontawesome-colored(symbol-table);
+  }
+
+  .signature {
+    -webkit-user-select: none;
+    margin-left: .5em;
+  }
+}

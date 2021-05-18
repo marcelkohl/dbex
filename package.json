@@ -1,0 +1,16 @@
+{
+  "name": "dbex",
+  "main": "./lib/dbex",
+  "version": "1.0.0",
+  "description": "Database Explorer",
+  "keywords": [
+    "database",
+    "explorer",
+    "sql"
+  ],
+  "repository": "https://github.com/marcelkohl/dbex",
+  "license": "GPLv3",
+  "engines": {
+    "atom": ">=1.45.0 <2.0.0"
+  }
+}
