@@ -1,2 +1,2 @@
 .sonarlint
-vendor
+node_modules
