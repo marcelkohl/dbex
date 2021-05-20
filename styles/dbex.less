@@ -35,12 +35,119 @@
   color: @@color;
 }
 
+.dbex-controls {
+  background-color: #8888881a;
+  padding: 0.375em;
+  overflow-x: hidden;
+
+  .header {
+    min-width: 22em;
+    padding: 2.5px 5px;
+    line-height: 1.75;
+  }
+
+  .options-label {
+    color: rgba(163, 168, 174, 0.6);
+    position: relative;
+  }
+
+  .header-item {
+    margin: 2.5px 0;
+  }
+
+  .btn-group-options {
+    display: inline-flex;
+    margin-top: -0.1em;
+    line-height: 1.75;
+  }
+
+  .btn-group {
+    flex: 1;
+  }
+
+  .btn-group-options .btn {
+    padding: 0;
+    font-size: 1.15em;
+    width: 36px;
+    line-height: 1.75;
+  }
+
+  .btn-group .btn {
+    flex: 1;
+  }
+
+  .btn > .icon {
+    width: 20px;
+    height: 16px;
+    vertical-align: middle;
+    fill: currentColor;
+    stroke: currentColor;
+    pointer-events: none;
+  }
+}
+
 .dbex {
-  padding-left: .35em;
-  padding-right: .7em;
+  padding-left: 0;
   position: relative;
   overflow-y: auto;
   overflow-x: auto;
+
+  .selected {
+    color: #fff!important;
+  }
+
+  div.heading {
+    border-bottom: 1px solid #d9dbde3d;
+    padding-bottom: 10px;
+  }
+
+  div.footer {
+    border-top: 1px solid #d9dbde3d;
+    padding-top: 10px;
+  }
+
+  div.control-group {
+    padding: 15px 0px;
+  }
+
+  section.content {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .control-group {
+    .title {
+      font-size: 1.2em;
+    }
+
+    .description {
+      color: rgba(163, 168, 174, 0.6);
+    }
+
+    select.form-control {
+      color: #a3a8ae;
+      border-color: #111314;
+      background-color: #2b2e31;
+    }
+
+    .form-control {
+      font-size: 1.25em;
+      height: 2em;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .btn-default {
+    height: initial;
+    padding: 0 0.8em;
+    font-size: 1.15em;
+    line-height: 2em;
+  }
+
+  .navigator-tree-view {
+    padding-left: .35em;
+    padding-right: .7em;
+  }
 
   .symbols-navigator-tree-view {
     padding-top: .5em;
