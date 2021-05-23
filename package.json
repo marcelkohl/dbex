@@ -15,5 +15,12 @@
   },
   "dependencies": {
     "mysql": "^2.18.1"
+  },
+  "consumedServices": {
+    "dbex": {
+      "versions": {
+        "^1.0.0": "getSubscribedPlugins"
+      }
+    }
   }
 }
