@@ -1,36 +1,36 @@
 @import "ui-variables";
 @import "../iconsets/font-awesome/font-awesome";
 
-@symbol-database: '\f1c0';
-@symbol-table:    '\f0ce';
-@symbol-pk:       '\f084';
-@symbol-fk:       '\f084';
-@symbol-field:    '\f0c9';
+@dbex-database: '\f1c0';
+@dbex-table:    '\f0ce';
+@dbex-pk:       '\f084';
+@dbex-fk:       '\f084';
+@dbex-field:    '\f0c9';
 
-@symbol-database-color: #61AEEF;
-@symbol-table-color: #DF6A73;
-@symbol-pk-color: #E5C17C;
-@symbol-fk-color: #a431c4;
-@symbol-field-color: #808080;
+@dbex-database-color: #939598;
+@dbex-table-color: #DF6A73;
+@dbex-pk-color: #E5C17C;
+@dbex-fk-color: #a431c4;
+@dbex-field-color: #808080;
 
-.symbol-icon(@name) {
-  font-family: 'symbol-icons';
+.dbex-icon(@name) {
+  font-family: 'dbex-icons';
   content: @@name;
 }
 
-.symbol-icon-colored(@name) {
-  .symbol-icon(@name);
+.dbex-icon-colored(@name) {
+  .dbex-icon(@name);
   @color: "@{name}-color";
   color: @@color;
 }
 
-.symbol-icon-fontawesome(@name) {
+.dbex-icon-fontawesome(@name) {
   font-family: 'FontAwesome';
   content: @@name;
 }
 
-.symbol-icon-fontawesome-colored(@name) {
-  .symbol-icon-fontawesome(@name);
+.dbex-icon-fontawesome-colored(@name) {
+  .dbex-icon-fontawesome(@name);
   @color: "@{name}-color";
   color: @@color;
 }
@@ -213,27 +213,28 @@
 
     &::before {
       width: 1.4em;
+      font-size: 16px;
     }
   }
 
   .icon-field::before {
-    .symbol-icon-fontawesome-colored(symbol-field);
+    .dbex-icon-fontawesome-colored(dbex-field);
   }
 
   .icon-fk::before {
-    .symbol-icon-fontawesome-colored(symbol-fk);
+    .dbex-icon-fontawesome-colored(dbex-fk);
   }
 
   .icon-pk::before {
-    .symbol-icon-fontawesome-colored(symbol-pk);
+    .dbex-icon-fontawesome-colored(dbex-pk);
   }
 
   .icon-database::before {
-    .symbol-icon-fontawesome-colored(symbol-database);
+    .dbex-icon-fontawesome-colored(dbex-database);
   }
 
   .icon-table::before {
-    .symbol-icon-fontawesome-colored(symbol-table);
+    .dbex-icon-fontawesome-colored(dbex-table);
   }
 
   .details {
