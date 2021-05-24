@@ -91,6 +91,15 @@
 }
 
 .dbex {
+  li.structured > div > span {
+    font-weight: 700;
+  }
+
+  .item-controls {
+    position: absolute;
+    right: 5px;
+  }
+
   // .list-item.tree-view-root::after {
   // // .list-nested-item.list-selectable-item.connected:after {
   //   .dbex-icon-fontawesome-colored(dbex-connected);
@@ -256,5 +265,22 @@
   .details {
     -webkit-user-select: none;
     margin-left: .5em;
+  }
+
+  .vague {
+    -webkit-animation: cssAnimation 3s forwards;
+    animation: cssAnimation 3s forwards;
+  }
+
+  @keyframes cssAnimation {
+      0%   {opacity: 1;}
+      90%  {opacity: 1;}
+      100% {opacity: 0;}
+  }
+
+  @-webkit-keyframes cssAnimation {
+      0%   {opacity: 1;}
+      90%  {opacity: 1;}
+      100% {opacity: 0;}
   }
 }
