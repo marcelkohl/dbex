@@ -5,13 +5,17 @@
 @dbex-table:    '\f0ce';
 @dbex-pk:       '\f084';
 @dbex-fk:       '\f084';
+@dbex-uk:       '\f084';
 @dbex-field:    '\f0c9';
+@dbex-connected:'\f111';
 
 @dbex-database-color: #939598;
 @dbex-table-color: #DF6A73;
 @dbex-pk-color: #E5C17C;
 @dbex-fk-color: #a431c4;
+@dbex-uk-color: #62bb57;
 @dbex-field-color: #808080;
+@dbex-connected-color: #f7d313;
 
 .dbex-icon(@name) {
   font-family: 'dbex-icons';
@@ -87,6 +91,14 @@
 }
 
 .dbex {
+  // .list-item.tree-view-root::after {
+  // // .list-nested-item.list-selectable-item.connected:after {
+  //   .dbex-icon-fontawesome-colored(dbex-connected);
+  //   float: right;
+  //   position: relative;
+  //   top: -21px;
+  // }
+
   /** split line blocks
   .input-block {
     display: flex;
@@ -120,7 +132,7 @@
   padding-left: 0;
   position: relative;
   overflow-y: auto;
-  overflow-x: auto;
+  overflow-x: hidden;
 
   .selected {
     color: #fff!important;
@@ -227,6 +239,10 @@
 
   .icon-pk::before {
     .dbex-icon-fontawesome-colored(dbex-pk);
+  }
+
+  .icon-uk::before {
+    .dbex-icon-fontawesome-colored(dbex-uk);
   }
 
   .icon-database::before {
