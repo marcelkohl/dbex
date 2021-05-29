@@ -92,11 +92,28 @@
   }
 }
 
+[data-type="ResultList"].tab.sortable.active {
+  background-color: green;
+}
+
+[data-type="ResultList"].tab.sortable {
+  background-color: silver;
+
+  > div.title {
+    background-color: black;
+    margin: 0px 0px 0px 3px;
+  }
+}
+
 .dbex {
   padding-left: 0;
   position: relative;
   overflow-y: auto;
   overflow-x: hidden;
+
+  li.list-nested-item:not(.has-children) > .list-item::before {
+    content: ""!important;
+  }
 
   li.structured > div > span {
     font-weight: 700;
