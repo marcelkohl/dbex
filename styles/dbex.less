@@ -92,18 +92,37 @@
   }
 }
 
-[data-type="ResultList"].tab.sortable.active {
-  background-color: green;
+[data-type="DbexResult"].tab.sortable.active {
+  max-width: 22em;
+
+  // background-color: green;
 }
 
-[data-type="ResultList"].tab.sortable {
-  background-color: silver;
-
-  > div.title {
-    background-color: black;
-    margin: 0px 0px 0px 3px;
-  }
+[data-type="DbexResult"].tab.sortable {
+  max-width: 22em;
+  // background-color: silver;
+  //
+  // > div.title {
+  //   background-color: black;
+  //   margin: 0px 0px 0px 3px;
+  // }
 }
+
+.tab-bar .tab.active:last-of-type {
+    box-shadow: 1px 0 0 red;
+}
+
+// [data-type="DbexResult"].tab.sortable.active::before {
+//   content: "X";
+//   position: absolute;
+//   pointer-events: none;
+//   z-index: 2;
+//   top: 0;
+//   left: -1px;
+//   bottom: 0;
+//   width: 2px;
+//   background: #d13b2e;
+// }
 
 .dbex {
   padding-left: 0;

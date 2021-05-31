@@ -3,13 +3,10 @@ database explorer plugin for atom ide
 
 ## TODO
 - clone datamodel folder into engine plugin (so files are always synced with core)
-- controls on connection node
 - remove connection
 - edit connection
 - create connection action for refresh
-- identify structure loaded on connection and show actions
 - execute query on engine
-- identify engine response for: result set, more items on tree, or data query
 - show result area when response is result set
 - show query area with data when result is data query
 - execute text from query area on engine
