@@ -14,7 +14,8 @@
     "atom": ">=1.45.0 <2.0.0"
   },
   "dependencies": {
-    "mysql": "^2.18.1"
+    "frappe-datatable": "^1.15.3",
+    "sortablejs": "^1.13.0"
   },
   "consumedServices": {
     "dbex": {
