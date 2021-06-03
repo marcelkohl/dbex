@@ -7,12 +7,10 @@ database explorer plugin for atom ide
 - edit connection
 - create connection action for refresh
 - execute query on engine
-- show result area when response is result set
 - show query area with data when result is data query
 - execute text from query area on engine
-- tabbed query area + result area
+- (tabbed query area) + (result area --done)
 - execute query from selected text (opened file or query area)
-- option to copy data from result
 - export result as csv
 - generate log from all queries
 - save/favorite query data tab
