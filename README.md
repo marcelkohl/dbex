@@ -3,7 +3,6 @@ database explorer plugin for atom ide
 
 ## TODO
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
-- edit connection
 - create connection action for refresh
 - execute query on engine
 - show query area with data when result is data query
@@ -11,6 +10,8 @@ database explorer plugin for atom ide
 - execute query from selected text (opened file or query area)
 - generate log from all queries
 - select opened databases from statusbar, so selected query with hotkey can automatically run based on that
+- fix scrolling on result table
+- fix action buttons styling on tree items
 
 ## Would be nice
 - autocomplete on query area
@@ -18,6 +19,11 @@ database explorer plugin for atom ide
 - custom plugins for result area (ex.: exporter)
 - engine plugins automatically install dbex core
 - load lates queries from connection
+- colored tabs/result (defined on connection), se user knows by color which db it is working on
+- edit result directly on table result
+- loading/processing request on tree item that was double clicked
+- status bar with time taken by query, or records updated (engine must send messages to be shown)
+- input for filter treeview by name
 
 ### Additional modules
 - export result as csv
@@ -35,3 +41,11 @@ database explorer plugin for atom ide
   https://github.com/dagrejs/dagre
     https://github.com/dagrejs/dagre/wiki
     https://www.nomnoml.com/
+- SQLite engine
+  https://www.npmjs.com/package/sqlite3
+- MariaDB engine
+  https://preview.npmjs.com/package/mariadb
+- Kafka
+  https://www.npmjs.com/package/kafkajs/v/1.12.0
+- PostgreSQL
+  https://www.npmjs.com/package/postgres
