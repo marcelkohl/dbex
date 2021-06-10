@@ -19,15 +19,15 @@
 
   .result-data {
     height: 70%;
-    overflow: auto;
-
+    // overflow: auto;
+    //
     td {
-      max-width: 100px;
+      max-width: 10px;
     }
 
     th, td {
     	padding: 5px;
-    	color: #fff;
+    	// color: #fff;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -36,6 +36,38 @@
     th {
       background-color: rgba(255,255,255,0.2);
     	text-align: left;
+      // display: flex;
+    }
+
+    .table th {
+      // position: relative;
+    }
+    .th-inner {
+      display: flex;
+      // flex: 99%;
+    }
+    .th-text {
+      // display: flex;
+      flex: 98%;
+      padding-right: 5px;
+    }
+    .resizer {
+        flex: 2%;
+        /* Displayed at the right side of column */
+        // position: absolute;
+        top: 0;
+        right: 0;
+        // width: 5px;
+        cursor: col-resize;
+        user-select: none;
+
+        width: 2px;
+        height: var(--editor-line-height);
+        border-right: 1px dotted rgba(255, 255, 255, 0.2);
+    }
+
+    .resizer:hover {
+      border-right: 2px solid #519fee;
     }
   }
 
