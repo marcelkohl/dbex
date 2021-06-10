@@ -1,6 +1,6 @@
 @import "../iconsets/font-awesome/font-awesome";
-@import (less) "../node_modules/frappe-datatable/src/style.css";
-@import (less) "../node_modules/frappe-datatable/src/dark.css";
+@import "./result";
+@import "./header-options";
 
 @dbex-database: '\f1c0';
 @dbex-table:    '\f0ce';
@@ -12,8 +12,6 @@
 @dbex-refresh:  '\f021';
 @dbex-edit:     '\f040';
 @dbex-delete:   '\f014';
-@dbex-play:     '\f04b';
-@dbex-stop:     '\f04d';
 
 @dbex-database-color: #939598;
 @dbex-table-color: #DF6A73;
@@ -22,8 +20,6 @@
 @dbex-uk-color: #62bb57;
 @dbex-field-color: #808080;
 @dbex-connected-color: #f7d313;
-@dbex-play-color: #b5bd68;
-@dbex-stop-color: #cc6666;
 
 .dbex-icon(@name) {
   font-family: 'dbex-icons';
@@ -47,151 +43,14 @@
   color: @@color;
 }
 
-.dbex-controls {
-  background-color: #8888881a;
-  padding: 0.375em;
-  overflow-x: hidden;
-
-  .header {
-    min-width: 22em;
-    padding: 2.5px 5px;
-    line-height: 1.75;
-  }
-
-  .options-label {
-    color: rgba(163, 168, 174, 0.6);
-    position: relative;
-  }
-
-  .header-item {
-    margin: 2.5px 0;
-  }
-
-  .btn-group-options {
-    display: inline-flex;
-    margin-top: -0.1em;
-    line-height: 1.75;
-  }
-
-  .btn-group {
-    flex: 1;
-  }
-
-  .btn-group-options .btn {
-    padding: 0;
-    font-size: 1.15em;
-    width: 36px;
-    line-height: 1.75;
-  }
-
-  .btn-group .btn {
-    flex: 1;
-  }
-
-  .btn > .icon {
-    width: 20px;
-    height: 16px;
-    vertical-align: middle;
-    fill: currentColor;
-    stroke: currentColor;
-    pointer-events: none;
-  }
-}
-
-.dbex-result-view {
-  font-family: var(--editor-font-family);
-  font-size: var(--editor-font-size);
-  overflow: hidden;
-  height: 100%;
-
-  .dt-cell {
-    // height: 35px;
-    line-height: var(--editor-line-height);
-  }
-
-  .datatable {
-    height: 100%;
-
-    .dt-scrollable {
-      height: 100%;
-    }
-  }
-
-  .result-data {
-    height: 70%;
-  }
-
-  .result-query {
-    min-height: 30%;
-    // min-height: 100px;
-    margin: 0px;
-    width: 100%;
-    resize: vertical;
-    overflow: auto;
-    background-color: #1d1f21;
-  }
-
-  #debex-query-editor {
-    // background-color: red;
-  }
-
-  .dbex-controls {
-    padding: 0px;
-
-    .header {
-      line-height: 0.75;
-    }
-
-    .btn-group-options {
-      height: 25px;
-
-      button {
-        line-height: 0.75;
-        width: 25px;
-      }
-    }
-  }
-
-  atom-text-editor {
-    overflow: auto;
-  }
-
-  atom-text-editor.is-focused {
-    box-shadow: 0 0 0 0px black;
-    // box-shadow: 0 0 0 1px #519fee;
-  }
-}
-
-[data-type="DbexResult"].tab.sortable.active {
-  max-width: 22em;
-  // background-color: green;
-}
-
-[data-type="DbexResult"].tab.sortable {
-  max-width: 22em;
-  // background-color: silver;
-  //
-  // > div.title {
-  //   background-color: black;
-  //   margin: 0px 0px 0px 3px;
-  // }
-}
-
 .tab-bar .tab.active:last-of-type {
     box-shadow: 1px 0 0 red;
 }
 
-// [data-type="DbexResult"].tab.sortable.active::before {
-//   content: "X";
-//   position: absolute;
-//   pointer-events: none;
-//   z-index: 2;
-//   top: 0;
-//   left: -1px;
-//   bottom: 0;
-//   width: 2px;
-//   background: #d13b2e;
-// }
+.success {color: #b5bd68;}
+.info {color: #61aeef;}
+.danger {color: #ff6347;}
+.warning {color: #e2c08d;}
 
 .dbex {
   padding-left: 0;
@@ -323,14 +182,6 @@
       width: 1.4em;
       font-size: 16px;
     }
-  }
-
-  .icon-play::before {
-    .dbex-icon-fontawesome(dbex-play);
-  }
-
-  .icon-stop::before {
-    .dbex-icon-fontawesome(dbex-stop);
   }
 
   .icon-delete::before {

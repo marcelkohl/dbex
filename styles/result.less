@@ -1,0 +1,96 @@
+.dbex-result-view {
+  font-family: var(--editor-font-family);
+  font-size: var(--editor-font-size);
+  overflow: hidden;
+  height: 100%;
+
+  .dt-cell {
+    // height: 35px;
+    line-height: var(--editor-line-height);
+  }
+
+  .datatable {
+    height: 100%;
+
+    .dt-scrollable {
+      height: 100%;
+    }
+  }
+
+  .result-data {
+    height: 70%;
+    overflow: auto;
+
+    td {
+      max-width: 100px;
+    }
+
+    th, td {
+    	padding: 5px;
+    	color: #fff;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    th {
+      background-color: rgba(255,255,255,0.2);
+    	text-align: left;
+    }
+  }
+
+  .result-query {
+    min-height: 30%;
+    // min-height: 100px;
+    margin: 0px;
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+    background-color: #1d1f21;
+  }
+
+  #debex-query-editor {
+    // background-color: red;
+  }
+
+  .dbex-options {
+    padding: 0px;
+
+    .header {
+      line-height: 0.75;
+    }
+
+    .btn-group-options {
+      height: 25px;
+
+      button {
+        line-height: 0.75;
+        width: 25px;
+      }
+    }
+  }
+
+  atom-text-editor {
+    overflow: auto;
+  }
+
+  atom-text-editor.is-focused {
+    box-shadow: 0 0 0 0px black;
+    // box-shadow: 0 0 0 1px #519fee;
+  }
+}
+
+[data-type="DbexResult"].tab.sortable.active {
+  max-width: 22em;
+  // background-color: green;
+}
+
+[data-type="DbexResult"].tab.sortable {
+  max-width: 22em;
+  // background-color: silver;
+  //
+  // > div.title {
+  //   background-color: black;
+  //   margin: 0px 0px 0px 3px;
+  // }
+}

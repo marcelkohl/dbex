@@ -3,15 +3,12 @@ database explorer plugin for atom ide
 
 ## TODO
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
-- create connection action for refresh
-- execute query on engine
-- show query area with data when result is data query
-- execute text from query area on engine
 - execute query from selected text (opened file or query area)
-- generate log from all queries
 - select opened databases from statusbar, so selected query with hotkey can automatically run based on that
 - fix scrolling on result table
 - fix action buttons styling on tree items
+- generate log from all queries
+- create connection action for refresh
 
 ## Would be nice
 - autocomplete on query area
@@ -24,6 +21,7 @@ database explorer plugin for atom ide
 - loading/processing request on tree item that was double clicked
 - status bar with time taken by query, or records updated (engine must send messages to be shown)
 - input for filter treeview by name
+- show time taken from last query (or while querying)
 
 ### Additional modules
 - export result as csv

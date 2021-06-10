@@ -14,8 +14,8 @@
     "atom": ">=1.45.0 <2.0.0"
   },
   "dependencies": {
-    "frappe-datatable": "^1.15.3",
-    "sortablejs": "^1.13.0"
+    "uuid": "^8.3.2",
+    "clusterize.js": "^0.18.1"
   },
   "consumedServices": {
     "dbex": {
