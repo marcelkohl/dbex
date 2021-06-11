@@ -18,11 +18,28 @@
   }
 
   .result-data {
-    height: 70%;
+    // height: 70%;
     // overflow: auto;
-    //
+
+    .clusterize-scroll {
+      // max-height: 100%!important;
+    }
+
+    tr {
+      border-bottom: 1px dotted rgba(255, 255, 255, 0.2)
+    }
+
+    thead {
+      border-collapse: collapse;
+    }
+
+    tbody tr:hover {
+      background-color: rgba(255, 255, 255, 0.08);
+    }
+
     td {
       max-width: 10px;
+      border-right: 1px dotted rgba(255, 255, 255, 0.2);
     }
 
     th, td {
@@ -34,9 +51,13 @@
     }
 
     th {
-      background-color: rgba(255,255,255,0.2);
+      background-color: rgb(68, 68, 68);
     	text-align: left;
+      padding: 5px 0px 5px 5px;
       // display: flex;
+      position: sticky;
+      z-index: 100;
+      top: 0;
     }
 
     .table th {
@@ -72,7 +93,7 @@
   }
 
   .result-query {
-    min-height: 30%;
+    // min-height: 30%;
     // min-height: 100px;
     margin: 0px;
     width: 100%;

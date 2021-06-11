@@ -22,6 +22,7 @@ database explorer plugin for atom ide
 - input for filter treeview by name
 - show time taken from last query (or while querying)
 - alert before processing results greather than 1k
+- result data column length by type
 
 ### Additional modules
 - export result as csv
