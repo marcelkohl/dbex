@@ -8,6 +8,7 @@ database explorer plugin for atom ide
 - fix action buttons styling on tree items
 - generate log from all queries
 - create connection action for refresh
+- destroy all the created elements when closing tab
 
 ## Would be nice
 - autocomplete on query area
