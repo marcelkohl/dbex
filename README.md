@@ -24,6 +24,9 @@ database explorer plugin for atom ide
 - show time taken from last query (or while querying)
 - alert before processing results greather than 1k
 - result data column length by type
+- hide query window when result not have query
+- hide data result when there is no data on result
+- option to run query on data result
 
 ### Additional modules
 - export result as csv
