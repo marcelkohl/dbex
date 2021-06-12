@@ -22,6 +22,11 @@
       "versions": {
         "^1.0.0": "getSubscribedPlugins"
       }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
     }
   }
 }

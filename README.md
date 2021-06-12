@@ -27,6 +27,7 @@ database explorer plugin for atom ide
 - hide query window when result not have query
 - hide data result when there is no data on result
 - option to run query on data result
+- click on status bar open query window (dbexResult)
 
 ### Additional modules
 - export result as csv
