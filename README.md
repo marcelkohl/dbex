@@ -3,8 +3,6 @@ database explorer plugin for atom ide
 
 ## TODO
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
-- execute query from selected text (opened file or query area)
-- select opened databases from statusbar, so selected query with hotkey can automatically run based on that
 - fix action buttons styling on tree items
 - generate log from all queries
 - create connection action for refresh
@@ -28,6 +26,7 @@ database explorer plugin for atom ide
 - hide data result when there is no data on result
 - option to run query on data result
 - click on status bar open query window (dbexResult)
+- identify query executed from textEditor and replace or create new result tab (uuid)
 
 ### Additional modules
 - export result as csv
