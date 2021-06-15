@@ -59,6 +59,18 @@
   overflow-y: auto;
   overflow-x: hidden;
 
+  .selected ul.list-tree {
+    position: initial;
+  }
+
+  .selected > div.list-item {
+    margin-right: -8px;
+
+    span.icon, span.details {
+      position: relative;
+    }
+  }
+
   li.list-nested-item:not(.has-children) > .list-item::before {
     content: ""!important;
   }

@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "uuid": "^8.3.2",
-    "clusterize.js": "^0.18.1"
+    "clusterize.js": "^0.18.1",
+    "log-to-file": "^2.0.2"
   },
   "consumedServices": {
     "dbex": {
