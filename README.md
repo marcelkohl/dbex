@@ -8,23 +8,21 @@ database explorer plugin for atom ide
 - cleanup code
 
 ## Would be nice
-- autocomplete on query area
+- alert before processing results greather than 1k
+- input for filter treeview by name
+- hide query window when result not have query
+- hide data result when there is no data on result
+- loading/processing request on tree item that was double clicked
+- click on status bar open query window (dbexResult)
+- load latest queries from connection
+- edit result directly on table result
 - custom plugins for query area (ex.: action buttons)
 - custom plugins for result area (ex.: exporter)
 - engine plugins automatically install dbex core
-- load latest queries from connection
-- edit result directly on table result
-- loading/processing request on tree item that was double clicked
-- status bar with time taken by query, or records updated (engine must send messages to be shown)
-- input for filter treeview by name
-- show time taken from last query (or while querying)
-- alert before processing results greather than 1k
-- hide query window when result not have query
-- hide data result when there is no data on result
-- click on status bar open query window (dbexResult)
-- identify query executed from textEditor and replace or create new result tab (uuid or title)
-- draggable connections to reorder in tree-view
 - on edit connection, replace entry at same position instead of in the end
+- draggable connections to reorder in tree-view
+- autocomplete on query area
+- identify query executed from textEditor and replace or create new result tab (uuid or title)
 
 
 ### Additional modules
