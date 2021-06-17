@@ -8,7 +8,6 @@ database explorer plugin for atom ide
 - cleanup code
 
 ## Would be nice
-- alert before processing results greather than 1k
 - input for filter treeview by name
 - hide query window when result not have query
 - hide data result when there is no data on result
