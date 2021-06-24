@@ -8,8 +8,6 @@ database explorer plugin for atom ide
 - cleanup code
 
 ## Would be nice
-- hide query window when result not have query
-- hide data result when there is no data on result
 - loading/processing request on tree item that was double clicked
 - click on status bar open query window (dbexResult)
 - load latest queries from connection
@@ -21,7 +19,10 @@ database explorer plugin for atom ide
 - draggable connections to reorder in tree-view
 - autocomplete on query area
 - identify query executed from textEditor and replace or create new result tab (uuid or title)
-
+- add promise on dbex side to avoid engine blocking atom
+- fix grid scroll on first and last records (actually hidden by the theader/atom footer)
+- move cursor on grid result when clicked
+- move cursor on grid result when pgup pgdown
 
 ### Additional modules
 - export result as csv
