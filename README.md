@@ -9,7 +9,6 @@ database explorer plugin for atom ide
 
 ## Would be nice
 - loading/processing request on tree item that was double clicked
-- click on status bar open query window (dbexResult)
 - load latest queries from connection
 - edit result directly on table result
 - custom plugins for query area (ex.: action buttons)
