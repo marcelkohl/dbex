@@ -8,7 +8,6 @@ database explorer plugin for atom ide
 - cleanup code
 
 ## Would be nice
-- loading/processing request on tree item that was double clicked
 - load latest queries from connection
 - edit result directly on table result
 - custom plugins for query area (ex.: action buttons)
