@@ -2,13 +2,18 @@
 database explorer plugin for atom ide
 
 ## TODO
+- fix grid scroll on first and last records (actually hidden by the theader/atom footer)
+- move cursor on grid result when clicked
+- move cursor on grid result when pgup pgdown
+- on data-table, add col types to cells, so it can be styled on css (number, alignment, color, etc)
+- add first column as index (1,2,3...)
+- set "null" cells innerHTML as css content (if possible).
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 - create connection action for refresh
 - destroy all the created elements when closing tab
 - cleanup code
 
 ## Would be nice
-- load latest queries from connection
 - edit result directly on table result
 - custom plugins for query area (ex.: action buttons)
 - custom plugins for result area (ex.: exporter)
@@ -18,9 +23,6 @@ database explorer plugin for atom ide
 - autocomplete on query area
 - identify query executed from textEditor and replace or create new result tab (uuid or title)
 - add promise on dbex side to avoid engine blocking atom
-- fix grid scroll on first and last records (actually hidden by the theader/atom footer)
-- move cursor on grid result when clicked
-- move cursor on grid result when pgup pgdown
 
 ### Additional modules
 - export result as csv
