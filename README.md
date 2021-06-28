@@ -2,7 +2,6 @@
 database explorer plugin for atom ide
 
 ## TODO
-- move cursor on grid result when clicked
 - move cursor on grid result when pgup pgdown
 - on data-table, add col types to cells, so it can be styled on css (number, alignment, color, etc)
 - add first column as index (1,2,3...)
