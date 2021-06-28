@@ -2,7 +2,6 @@
 database explorer plugin for atom ide
 
 ## TODO
-- fix grid scroll on first and last records (actually hidden by the theader/atom footer)
 - move cursor on grid result when clicked
 - move cursor on grid result when pgup pgdown
 - on data-table, add col types to cells, so it can be styled on css (number, alignment, color, etc)
