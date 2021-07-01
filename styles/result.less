@@ -50,9 +50,20 @@
       border-right: 1px dotted rgba(255, 255, 255, 0.2);
     }
 
-    td.null {
-      font-style: italic;
-      color: rgba(163, 168, 174, 0.45);
+    td {
+      &.dbex-value-null::after {
+        font-style: italic;
+        color: rgba(163, 168, 174, 0.45);
+        content: "null";
+      }
+
+      &.dbex-col-number {
+        text-align: right;
+      }
+
+      &.dbex-col-boolean {
+        text-align: center;
+      }
     }
 
     th, td {
@@ -71,6 +82,26 @@
       position: sticky;
       z-index: 100;
       top: 0;
+
+      &.dbex-col-undefined {
+        min-width: 150px;
+      }
+
+      &.dbex-col-number {
+        min-width: 100px;
+      }
+
+      &.dbex-col-text {
+        min-width: 300px;
+      }
+
+      &.dbex-col-boolean {
+        min-width: 50px;
+      }
+
+      &.dbex-col-date {
+        min-width: 150px;
+      }
     }
 
     .table th {

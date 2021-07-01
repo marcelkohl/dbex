@@ -2,9 +2,7 @@
 database explorer plugin for atom ide
 
 ## TODO
-- on data-table, add col types to cells, so it can be styled on css (number, alignment, color, etc)
 - add first column as index (1,2,3...)
-- set "null" cells innerHTML as css content (if possible).
 - openning log is failing when tabs are opened from history. It is opening log file for the connection name instead of the node.name expected;
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 - create connection action for refresh
