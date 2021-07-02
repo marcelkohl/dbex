@@ -51,6 +51,8 @@
     }
 
     td {
+      padding: 5px;
+
       &.dbex-value-null::after {
         font-style: italic;
         color: rgba(163, 168, 174, 0.45);
@@ -66,21 +68,13 @@
       }
     }
 
-    th, td {
-    	padding: 5px;
-    	// color: #fff;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
     th {
       background-color: rgb(68, 68, 68);
     	text-align: left;
       padding: 5px 0px 5px 5px;
       // display: flex;
       position: sticky;
-      z-index: 100;
+      // z-index: 100;
       top: 0;
 
       &.dbex-col-undefined {
@@ -104,9 +98,29 @@
       }
     }
 
-    .table th {
-      // position: relative;
+    th, td {
+    	// color: #fff;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      &.dbex-col-index {
+        background-color: rgb(68, 68, 68);
+        text-align: center;
+        min-width: 50px;
+        position: sticky;
+        left: 0px;
+      }
     }
+
+    th.dbex-dead-corner {
+      top: 0px;
+      left: 0px;
+      position: sticky;
+      z-index: 1;
+      background-color: #313131;
+    }
+
     .th-inner {
       display: flex;
       // flex: 99%;
