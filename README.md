@@ -2,12 +2,11 @@
 database explorer plugin for atom ide
 
 ## TODO
-- openning log is failing when tabs are opened from history. It is opening log file for the connection name instead of the node.name expected;
-- clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 - create connection action for refresh
 - destroy all the created elements when closing tab
 - cleanup code
 - engine plugins automatically install dbex core
+- clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 
 ## Would be nice
 - edit result directly on table result
