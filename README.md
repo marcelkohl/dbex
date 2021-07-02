@@ -2,18 +2,17 @@
 database explorer plugin for atom ide
 
 ## TODO
-- add first column as index (1,2,3...)
 - openning log is failing when tabs are opened from history. It is opening log file for the connection name instead of the node.name expected;
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 - create connection action for refresh
 - destroy all the created elements when closing tab
 - cleanup code
+- engine plugins automatically install dbex core
 
 ## Would be nice
 - edit result directly on table result
 - custom plugins for query area (ex.: action buttons)
 - custom plugins for result area (ex.: exporter)
-- engine plugins automatically install dbex core
 - on edit connection, replace entry at same position instead of in the end
 - draggable connections to reorder in tree-view
 - autocomplete on query area
