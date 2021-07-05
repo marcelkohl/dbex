@@ -2,7 +2,6 @@
 database explorer plugin for atom ide
 
 ## TODO
-- able to copy result from data-result (right click, ctrl+c)
 - destroy all the created elements when closing tab
 - cleanup code
 - engine plugins automatically install dbex core
