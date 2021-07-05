@@ -2,7 +2,6 @@
 database explorer plugin for atom ide
 
 ## TODO
-- color on edit is not being loaded on input, so it is saving wrng color if not changed;
 - able to copy result from data-result (right click, ctrl+c)
 - destroy all the created elements when closing tab
 - cleanup code
