@@ -5,7 +5,6 @@
   height: 100%;
 
   .dt-cell {
-    // height: 35px;
     line-height: var(--editor-line-height);
   }
 
@@ -18,9 +17,6 @@
   }
 
   .result-data {
-    // height: 70%;
-    // overflow: auto;
-
     .clusterize-scroll {
       // max-height: 100%!important;
     }
@@ -72,9 +68,7 @@
       background-color: rgb(68, 68, 68);
     	text-align: left;
       padding: 5px 0px 5px 5px;
-      // display: flex;
       position: sticky;
-      // z-index: 100;
       top: 0;
       user-select: none;
 
@@ -100,7 +94,6 @@
     }
 
     th, td {
-    	// color: #fff;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -125,20 +118,15 @@
 
     .th-inner {
       display: flex;
-      // flex: 99%;
     }
     .th-text {
-      // display: flex;
       flex: 98%;
       padding-right: 5px;
     }
     .resizer {
         flex: 2%;
-        /* Displayed at the right side of column */
-        // position: absolute;
         top: 0;
         right: 0;
-        // width: 5px;
         cursor: col-resize;
         user-select: none;
 
@@ -153,17 +141,11 @@
   }
 
   .result-query {
-    // min-height: 30%;
-    // min-height: 100px;
     margin: 0px;
     width: 100%;
     resize: vertical;
     overflow: auto;
     background-color: #1d1f21;
-  }
-
-  #debex-query-editor {
-    // background-color: red;
   }
 
   .dbex-options {
@@ -195,15 +177,8 @@
 
 [data-type="DbexResult"].tab.sortable.active {
   max-width: 22em;
-  // background-color: green;
 }
 
 [data-type="DbexResult"].tab.sortable {
   max-width: 22em;
-  // background-color: silver;
-  //
-  // > div.title {
-  //   background-color: black;
-  //   margin: 0px 0px 0px 3px;
-  // }
 }
