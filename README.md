@@ -2,7 +2,6 @@
 database explorer plugin for atom ide
 
 ## TODO
-- destroy all the created elements when closing tab
 - cleanup code
 - engine plugins automatically install dbex core
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
