@@ -3,6 +3,7 @@ database explorer plugin for atom ide
 
 ## TODO
 - cleanup code
+  - edit connection cannot open on non connection nodes
 - engine plugins automatically install dbex core
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 
