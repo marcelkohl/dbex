@@ -3,12 +3,19 @@ database explorer plugin for atom ide
 
 ## TODO
 - cleanup code
-  - edit connection cannot open on non connection nodes
+  - edit connection should not open on non connection nodes
+- theme compatible (not just dark)
+- plugin Settings
+  - optional execute query from editor (must disable selected database from status-bar also)
+  - configurable short key for query execute;
+  - optional open last queries tabs;
+  - optional log queries (hide log button)
 - engine plugins automatically install dbex core
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 
 ## Would be nice
-- edit result directly on table result
+- show divider between query and result (where we can see easily where to drag to resize)
+- edit result directly on table result (engine result must have a list of cols/references to send on confirm edit. ex.: mysql is the pk col name)
 - custom plugins for query area (ex.: action buttons)
 - custom plugins for result area (ex.: exporter)
 - on edit connection, replace entry at same position instead of in the end
