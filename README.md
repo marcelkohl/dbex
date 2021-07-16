@@ -2,7 +2,6 @@
 database explorer plugin for atom ide
 
 ## TODO
-- theme compatible (not just dark)
 - plugin Settings
   - optional execute query from editor (must disable selected database from status-bar also)
   - configurable short key for query execute;
