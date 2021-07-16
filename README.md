@@ -4,12 +4,14 @@ database explorer plugin for atom ide
 ## TODO
 - cleanup code
   - edit connection should not open on non connection nodes
+- adjust result to have a min height that when scrolls data does not hide the query options
 - theme compatible (not just dark)
 - plugin Settings
   - optional execute query from editor (must disable selected database from status-bar also)
   - configurable short key for query execute;
   - optional open last queries tabs;
   - optional log queries (hide log button)
+  - maximum limit records result
 - engine plugins automatically install dbex core
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 
