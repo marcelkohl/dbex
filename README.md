@@ -2,7 +2,6 @@
 database explorer plugin for atom ide
 
 ## TODO
-- adjust result to have a min height that when scrolls data does not hide the query options
 - theme compatible (not just dark)
 - plugin Settings
   - optional execute query from editor (must disable selected database from status-bar also)
