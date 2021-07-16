@@ -2,8 +2,7 @@
 database explorer plugin for atom ide
 
 ## TODO
-- cleanup code
-  - edit connection should not open on non connection nodes
+- edit connection should not open on non connection nodes
 - adjust result to have a min height that when scrolls data does not hide the query options
 - theme compatible (not just dark)
 - plugin Settings
