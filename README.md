@@ -2,12 +2,8 @@
 database explorer plugin for atom ide
 
 ## TODO
-- plugin Settings
-  - optional execute query from editor (must disable selected database from status-bar also)
-  - configurable short key for query execute;
-  - optional open last queries tabs;
-  - optional log queries (hide log button)
-  - maximum limit records result
+- time spend on query looks not right.
+- add the number of showing records (if limited. maybe reduce the result from the limit)
 - engine plugins automatically install dbex core
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 
@@ -19,7 +15,7 @@ database explorer plugin for atom ide
 - on edit connection, replace entry at same position instead of in the end
 - draggable connections to reorder in tree-view
 - autocomplete on query area
-- identify query executed from textEditor and replace or create new result tab (uuid or title)
+- identify query executed from textEditor and replace or create new result tab (uuid or title), not on a generic tab
 - add promise on dbex side to avoid engine blocking atom
 
 ### Additional modules

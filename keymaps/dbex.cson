@@ -1,18 +1,4 @@
-# Keybindings require three things to be fully defined: A selector that is
-# matched against the focused element, the keystroke and the command to
-# execute.
-#
-# Below is a basic keybinding which registers on all platforms by applying to
-# the root workspace element.
-
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  # 'alt-shift-d': 'data-ace:toggle-results-view'
   'f12': 'dbex:execute-query'
-
-# '.platform-darwin atom-works-pace':
-#   'cmd-enter': 'data-ace:execute'
-#
-# 'atom-workspace atom-text-editor:not([mini])':
-#   'cmd-enter': 'data-ace:execute'
