@@ -1,5 +1,5 @@
 # dbex
-database explorer plugin for atom ide
+A hackable database explorer for Atom Editor
 
 ## TODO
 - time spend on query looks not right.

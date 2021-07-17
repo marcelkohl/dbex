@@ -2,11 +2,13 @@
   "name": "dbex",
   "main": "./lib/dbex",
   "version": "1.0.0",
-  "description": "Database Explorer",
+  "description": "dbex - Hackable Database Explorer for Atom Editor",
   "keywords": [
     "database",
     "explorer",
-    "sql"
+    "sql",
+    "query",
+    "db"
   ],
   "repository": "https://github.com/marcelkohl/dbex",
   "license": "GPLv3",
@@ -28,6 +30,36 @@
       "versions": {
         "^1.0.0": "consumeStatusBar"
       }
+    }
+  },
+  "configSchema": {
+    "MaximumLimitRecordsResult": {
+      "title": "Maximum limit of records per result",
+      "type": "integer",
+      "description": "Throws a warning when a query is executed and the limit of records is greater than the specified here. This limit is to avoid the system to be blocked by processing too many records. The limit can be over-passed in the time of execution.",
+      "default": 1000,
+      "order": 1
+    },
+    "LogQueries": {
+      "title": "Log queries",
+      "type": "boolean",
+      "default": true,
+      "description": "Log all queries executed. It is possible to see the logs through the dbex log button.",
+      "order": 2
+    },
+    "RememberLastOpenedQueryTabs": {
+      "title": "Remember last opened query tabs",
+      "type": "boolean",
+      "default": true,
+      "description": "Keeps record of the opened tabs and reopens them next time that Atom is used.",
+      "order": 3
+    },
+    "AllowExecuteQueryFromEditor": {
+      "title": "Allow to execute queries from editor",
+      "type": "boolean",
+      "default": true,
+      "description": "Queries can be executed directly from the text editor without the need to open the dbex tab.",
+      "order": 4
     }
   }
 }
