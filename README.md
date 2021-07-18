@@ -2,11 +2,11 @@
 A hackable database explorer for Atom Editor
 
 ## TODO
-- edit result directly on table result (engine result must have a list of cols/references to send on confirm edit. ex.: mysql is the pk col name)
 - engine plugins automatically install dbex core
 - clone datamodel folder into engine plugin (so files are always synced with core) -- need to be a kind of base engine which will be forked and updated as needed;
 
 ## Would be nice
+- edit result directly on table result (engine result must have a list of cols/references to send on confirm edit. ex.: mysql is the pk col name)
 - show divider between query and result (where we can see easily where to drag to resize)
 - custom plugins for query area (ex.: action buttons)
 - custom plugins for result area (ex.: exporter)
