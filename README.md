@@ -6,8 +6,6 @@
 # Dbex - A Hackable Database Explorer For Atom Editor
 Dbex is an Atom package created to facilitate every developer who needs to work with multiple databases. It is not supposed to replace any professional tool, instead, it is a support package to avoid installing many database tools.
 
-**Using this graphical environment it looks like this:**
-
 <img alt="Graphics on Clipper DOS" src="https://github.com/marcelkohl/dbex/blob/main/samples/main.png?raw=true">
 
 ## Resources
@@ -18,10 +16,10 @@ Dbex is an Atom package created to facilitate every developer who needs to work 
          <b>Easy to manage</b>
          <p>Multiple database connections can be managed through the Databases tab. Identified by colors and respective engine icon.</p>
          </td>
-         <td>Img tree</td>
+         <td><img alt="Graphics on Clipper DOS" src="https://github.com/marcelkohl/dbex/blob/main/samples/tree.png?raw=true" width="400" height="auto"></td>
       </tr>
       <tr>
-         <td>img create conn</td>
+         <td><img alt="Graphics on Clipper DOS" src="https://github.com/marcelkohl/dbex/blob/main/samples/create.png?raw=true" width="400" height="auto"></td>
          <td>
          <b>Community friendly</b>
          <p>Engines for any database can be created using the available <a href="https://github.com/marcelkohl/dbex-engine-base">sample template</a>, so nobody will miss your favorite database.</p>
