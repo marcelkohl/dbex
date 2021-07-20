@@ -8,7 +8,7 @@ Dbex is an Atom package created to facilitate every developer who needs to work 
 
 **Using this graphical environment it looks like this:**
 
-<img alt="Graphics on Clipper DOS" src="https://github.com/marcelkohl/dbex/blob/main/samples/main.png?raw=true" width="400" height="auto">
+<img alt="Graphics on Clipper DOS" src="https://github.com/marcelkohl/dbex/blob/main/samples/main.png?raw=true">
 
 ## Resources
 <table>
