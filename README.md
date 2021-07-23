@@ -22,7 +22,7 @@ Dbex is an Atom package created to facilitate every developer who needs to work 
          <td><img alt="Community friendly" src="https://github.com/marcelkohl/dbex/blob/main/samples/create.png?raw=true" width="400" height="auto"></td>
          <td>
          <b>Community friendly</b>
-         <p>Engines for any database can be created using the available <a href="https://github.com/marcelkohl/dbex-engine-base">sample template</a>, so nobody will miss your favorite database.</p>
+         <p>Engines for any database can be created using the available <a href="https://github.com/marcelkohl/dbex-engine-base">base template</a>, so nobody will miss your favorite database.</p>
          </td>
       </tr>
       <tr>
@@ -61,7 +61,20 @@ Dbex is an Atom package created to facilitate every developer who needs to work 
    </tbody>
 </table>
 
+## Engines
+Dbex package does not make all the work alone, instead, it use 3rd party engines to make things happen. Everything that is related to the database is done by the engine as processing queries, controlling connection pools, retrieving structures and so on.
+
+Engines can be created by anyone just by following the [base template](https://github.com/marcelkohl/dbex-engine-base) and filling the mandatory methods. Dbex will communicate with the installed engines to make things happen.
+
+As soon as other engines are available it will be listed here. For now this is what we have:
+
+|Engine|Description|
+|---|---|
+|[Base Engine](https://github.com/marcelkohl/dbex-engine-base)|Sample engine used as base structure. It does nothing, just an example|   
+
 ## TODO
+While many resources where implemented there are still some others that would be nice to have and probably will be implemented soon:
+
 - Edit result directly on table result (engine result must have a list of cols/references to send on confirm edit. ex.: mysql is the pk col name);
 - Show divider between query and result (where we can see easily where to drag to resize);
 - custom plugins for query area (ex.: action buttons, indentation);
