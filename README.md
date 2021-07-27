@@ -72,11 +72,15 @@ As soon as other engines are available it will be listed here. For now this is w
 |---|---|
 |[Base Engine](https://github.com/marcelkohl/dbex-engine-base)|Sample engine used as base structure. It does nothing, just an example|   
 
-## TODO
-While many resources where implemented there are still some others that would be nice to have and probably will be implemented soon:
-
+## MUST BEFORE GO LIVE
 - same connection node name + same database name conflicts to update node (probably same table name will have the same issue);
 - empty query from result must hide result editor. It is not happening;
+- query result area highlight must depend on the engine. Not all queries will by mysql.
+- test on mac
+- test on windows
+
+## TODO
+While many resources where implemented there are still some small issues to fix and also other resources that would be nice to have and probably will be implemented soon:
 
 - Edit result directly on table result (engine result must have a list of cols/references to send on confirm edit. ex.: mysql is the pk col name);
 - Show divider between query and result (where we can see easily where to drag to resize);
