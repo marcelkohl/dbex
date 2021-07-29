@@ -74,7 +74,6 @@ As soon as other engines are available it will be listed here. For now this is w
 
 ## MUST BEFORE GO LIVE
 - same connection node name + same database name conflicts to update node (probably same table name will have the same issue);
-- empty query from result must hide result editor. It is not happening;
 - test on mac
 - test on windows
 
