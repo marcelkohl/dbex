@@ -73,7 +73,6 @@ As soon as other engines are available it will be listed here. For now this is w
 |[Base Engine](https://github.com/marcelkohl/dbex-engine-base)|Sample engine used as base structure. It does nothing, just an example|   
 
 ## MUST BEFORE GO LIVE
-- same connection node name + same database name conflicts to update node (probably same table name will have the same issue);
 - test on mac
 - test on windows
 
