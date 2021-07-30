@@ -79,6 +79,7 @@ As soon as other engines are available it will be listed here. For now this is w
 ## TODO
 While many resources where implemented there are still some small issues to fix and also other resources that would be nice to have and probably will be implemented soon:
 
+- actions on right click instead of node icons;
 - Edit result directly on table result (engine result must have a list of cols/references to send on confirm edit. ex.: mysql is the pk col name);
 - Show divider between query and result (where we can see easily where to drag to resize);
 - custom plugins for query area (ex.: action buttons, indentation);

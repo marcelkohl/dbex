@@ -1,2 +1,4 @@
 .sonarlint
 node_modules
+/logs/*.log
+/history/*.json
