@@ -71,6 +71,7 @@ As soon as other engines are available it will be listed here. For now this is w
 |Engine|Description|
 |---|---|
 |[Base Engine](https://github.com/marcelkohl/dbex-engine-base)|Sample engine used as base structure. It does nothing, just an example|   
+|[MySQL](https://github.com/marcelkohl/atom-dbex-mysql)|Support to the basic aspects of MySQL resources, including v.5.x and v.8.x|
 
 ## TODO
 While many resources where implemented there are still some small issues to fix and also other resources that would be nice to have and probably will be implemented soon:
