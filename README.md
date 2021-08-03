@@ -6,7 +6,7 @@
 # Dbex - A Hackable Database Explorer For Atom Editor
 Dbex is an Atom package created to facilitate every developer who needs to work with multiple databases. It is not supposed to replace any professional tool, instead, it is a support package to avoid installing many database tools.
 
-<img alt="Dbex - A Hackable Database Explorer For Atom Editor" src="https://github.com/marcelkohl/dbex/blob/main/samples/main.png?raw=true">
+<img alt="Dbex - A Hackable Database Explorer For Atom Editor" src="https://github.com/marcelkohl/dbex/blob/master/samples/main.png?raw=true">
 
 ## Resources
 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border:0px;">
@@ -16,10 +16,10 @@ Dbex is an Atom package created to facilitate every developer who needs to work 
          <b>Easy to manage</b>
          <p>Multiple database connections can be managed through the Databases tab. Identified by colors and respective engine icon.</p>
          </td>
-         <td><img alt="Easy to manage" src="https://github.com/marcelkohl/dbex/blob/main/samples/tree.png?raw=true" width="400" height="auto"></td>
+         <td><img alt="Easy to manage" src="https://github.com/marcelkohl/dbex/blob/master/samples/tree.png?raw=true" width="400" height="auto"></td>
       </tr>
       <tr>
-         <td><img alt="Community friendly" src="https://github.com/marcelkohl/dbex/blob/main/samples/create.png?raw=true" width="400" height="auto"></td>
+         <td><img alt="Community friendly" src="https://github.com/marcelkohl/dbex/blob/master/samples/create.png?raw=true" width="400" height="auto"></td>
          <td>
          <b>Community friendly</b>
          <p>Engines for any database can be created using the available <a href="https://github.com/marcelkohl/dbex-engine-base">base template</a>, so nobody will miss your favorite database.</p>
@@ -30,10 +30,10 @@ Dbex is an Atom package created to facilitate every developer who needs to work 
          <b>Quick access</b>
          <p>Query and results can be quickly accessed by the bottom tab, supporting multiple tabs for queries and results.</p>
          </td>
-         <td><img alt="Quick access" src="https://github.com/marcelkohl/dbex/blob/main/samples/result.png?raw=true" width="400" height="auto"></td>
+         <td><img alt="Quick access" src="https://github.com/marcelkohl/dbex/blob/master/samples/result.png?raw=true" width="400" height="auto"></td>
       </tr>
       <tr>
-         <td><img alt="Queries Everywhere" src="https://github.com/marcelkohl/dbex/blob/main/samples/queries.png?raw=true" width="400" height="auto"></td>
+         <td><img alt="Queries Everywhere" src="https://github.com/marcelkohl/dbex/blob/master/samples/queries.png?raw=true" width="400" height="auto"></td>
          <td>
          <b>Queries Everywhere</b>
          <p>Request queries directly from the text editor or by clicking on the database indicator.</p>
@@ -44,7 +44,7 @@ Dbex is an Atom package created to facilitate every developer who needs to work 
          <b>Theme Compatible</b>
          <p>Don't mess up your theme. Dbex is compatible with it following the theme schema.</p>
          </td>
-         <td><img alt="Queries Everywhere" src="https://github.com/marcelkohl/dbex/blob/main/samples/themes.png?raw=true" width="400" height="auto"></td>
+         <td><img alt="Queries Everywhere" src="https://github.com/marcelkohl/dbex/blob/master/samples/themes.png?raw=true" width="400" height="auto"></td>
       </tr>
       <tr>
          <td colspan="2">
