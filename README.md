@@ -72,7 +72,7 @@ As soon as other engines are available it will be listed here. For now this is w
 |---|---|
 |[Base Engine](https://github.com/marcelkohl/dbex-engine-base)|Sample engine used as base structure. It does nothing, just an example|   
 |[MySQL](https://github.com/marcelkohl/atom-dbex-mysql)|Support to the basic aspects of MySQL resources, including v.5.x and v.8.x|
-|[MariaDB](https://github.com/marcelkohl/atom-dbex-mariadb)|In development support for MariaDB|
+|[MariaDB](https://github.com/marcelkohl/atom-dbex-mariadb)|Support to MariaDB resources|
 
 ## TODO
 While many resources where implemented there are still some small issues to fix and also other resources that would be nice to have and probably will be implemented soon:
