@@ -1,5 +1,5 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://bitbucket.org/lbesson/ansi-colors)
-[![Generic badge](https://img.shields.io/badge/Status-Stable-green.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Status-Beta-yellow.svg)](https://shields.io/)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
@@ -88,3 +88,12 @@ While many resources where implemented there are still some small issues to fix 
 - Auto complete on query area;
 - Identify query executed from textEditor and replace or create new result tab (uuid or title), not on a generic tab;
 - Add promise on dbex side to avoid engine blocking atom;
+
+## Warranty Disclaimer
+The following disclaimer was written thinking in all professionals that works with data and know how important data is.
+
+**All work here is provided ​“AS IS” AND I CANNOT MAKE ANY EXPRESS OR IMPLIED WARRANTY OF ANY KIND. As this is a side project from myself and a non-commercial product, I cannot give any warranties about the correct and full functional product. I hereby declare to not be liable for any damages arising in use of or inability to use this software.**
+
+**USE IT BY YOUR OWN RISK.**
+
+**KEEP BACKUPS UPDATED.**
