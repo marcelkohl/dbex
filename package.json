@@ -1,7 +1,7 @@
 {
   "name": "dbex",
   "main": "./lib/dbex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "dbex - Hackable Database Explorer for Atom Editor",
   "keywords": [
     "database",
